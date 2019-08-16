@@ -312,6 +312,10 @@ section{
     border: 2px solid #ffffff;
     margin-bottom: 20px;
 }
+.foot__info #gdpr{
+    width: 15px;
+    height: 15px;
+}
 .foot__info .made-by{
     text-align: right;
 }
