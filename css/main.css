@@ -60,11 +60,9 @@ section{
 }
 .dropdown {
     position: absolute;
-    top:40px;
+    top:0;
     left: 20px;
-    padding-left: 50px;
     padding-top: 40px;
-    background-color: #ffffff;
     width: 250px;
     font-size: 16px;
     list-style: none;
@@ -72,7 +70,9 @@ section{
 .dropdown > li{
     padding-bottom: 20px;
     padding-right: 30px;
+    padding-left: 50px;
     cursor: pointer;
+    background-color: #ffffff;
 }
 .dropdown > li > span:hover{
     border-bottom: 3px solid #E0FF04;
@@ -125,7 +125,7 @@ section{
 .slider{
     display: flex;
     justify-content: space-between;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
     align-items: baseline;
     padding: 10px 100px;
 }
@@ -135,10 +135,12 @@ section{
 }
 .slider__item{
     height: 510px;
+    cursor: pointer;
 }
 .slider__item__text{
     text-align: center;
     cursor: pointer;
+    position: relative;
 }
 .slider__item__text > h3{
     font-size: 16px;
@@ -170,7 +172,7 @@ section{
     width: 8px;
     height: 10px;
     position: absolute;
-    top:40px;
+    top:-15px;
     right: 0;
 }
 
