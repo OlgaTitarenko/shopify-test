@@ -2,309 +2,279 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Shopify</title>
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/32cf4766fa.js"></script>
 </head>
 <body>
-    <header>
-        <nav class="top">
-            <label class="top__search">
-                <i class="fas fa-search"></i>
-                <input type="text" />
-            </label>
+    <header id="top">
+        <div class="top">
+            <form action="">
+                <label class="top__search">
+                    <i class="fas fa-search"></i>
+                    <input name="search" type="text" />
+                </label>
+            </form>
             <div class="top__logo">
-                <img src="img/logo.png" alt="logo koibird">
+                <a href="#"><img src="img/logo.png" alt="logo koibird"></a>
             </div>
             <div class="top__user">
-                <span>Register  </span>
+                <a href="#"><span>Register  </span></a>
                 <span>|</span>
-                <span>My Account</span>
-                <i class="far fa-heart"></i>
-                <i class="fas fa-shopping-bag"></i>
+                <a href="#"><span>My Account</span></a>
+                <a href="#"><i class="far fa-heart"></i></a>
+                <a href="#"><i class="fas fa-shopping-bag"></i></a>
             </div>
-        </nav>
+        </div>
         <nav>
             <ul class="navigation">
-                <li>SHOP BY CATEGORY</li>
-                <li class="navigation__by-brand">SHOP BY BRAND
+                <li><a href="#category">SHOP BY CATEGORY</a></li>
+                <li class="navigation__by-brand"><a href="#">SHOP BY BRAND</a>
                     <ul class="dropdown navigation__by-brand__dropdown">
-                        <li><span>ANNAKIKI</span></li>
-                        <li><span>ANNE WEST</span></li>
-                        <li><span>BACON CLOTHING</span></li>
-                        <li><span>BLACK CROWS</span></li>
-                        <li><span>BLANCHA</span></li>
-                        <li><span>CANCELLATO</span></li>
-                        <li><span>CORDOVA</span></li>
-                        <li><span>FUSALP</span></li>
-                        <li><span>I LOVE MR MITTENS</span></li>
-                        <li><span>IENKI IENKI</span></li>
+                        <li><a href="#"><span>ANNAKIKI</span></a></li>
+                        <li><a href="#"><span>ANNE WEST</span></a></li>
+                        <li><a href="#"><span>BACON CLOTHING</span></a></li>
+                        <li><a href="#"><span>BLACK CROWS</span></a></li>
+                        <li><a href="#"><span>BLANCHA</span></a></li>
+                        <li><a href="#"><span>CANCELLATO</span></a></li>
+                        <li><a href="#"><span>CORDOVA</span></a></li>
+                        <li><a href="#"><span>FUSALP</span></a></li>
+                        <li><a href="#"><span>I LOVE MR MITTENS</span></a></li>
+                        <li><a href="#"><span>IENKI IENKI</span></a></li>
                     </ul>
                 </li>
-                <li class="navigation__by-collection">SHOP BY COLLECTION
+                <li class="navigation__by-collection"><a href="#">SHOP BY COLLECTION</a>
                     <ul class="dropdown navigation__by-collection__dropdown">
-                        <li><span>LE KILT</span></li>
-                        <li><span>LINGUA FRANCA</span></li>
-                        <li><span>MORPHO AND LUNA</span></li>
-                        <li><span>NASTAHA ZINKO</span></li>
-                        <li><span>PERFECT MOMENT</span></li>
-                        <li><span>SPENCER VLADIMIR</span></li>
-                        <li><span>STAND</span></li>
-                        <li><span>WILD AND WOOLLY</span></li>
-                        <li><span>WOOLY BOOLY</span></li>
-                        <li><span>BLACK CROWS</span></li>
+                        <li><a href="#"><span>LE KILT</span></a></li>
+                        <li><a href="#"><span>LINGUA FRANCA</span></a></li>
+                        <li><a href="#"><span>MORPHO AND LUNA</span></a></li>
+                        <li><a href="#"><span>NASTAHA ZINKO</span></a></li>
+                        <li><a href="#"><span>PERFECT MOMENT</span></a></li>
+                        <li><a href="#"><span>SPENCER VLADIMIR</span></a></li>
+                        <li><a href="#"><span>STAND</span></a></li>
+                        <li><a href="#"><span>WILD AND WOOLLY</span></a></li>
+                        <li><a href="#"><span>WOOLY BOOLY</span></a></li>
+                        <li><a href="#"><span>BLACK CROWS</span></a></li>
                     </ul>
                 </li>
-                <li>ABOUT KOIBIRD</li>
-                <li>POP-UP SHOP</li>
+                <li><a href="#" >ABOUT KOIBIRD</a></li>
+                <li><a href="#" >POP-UP SHOP</a></li>
             </ul>
         </nav>
 
     </header>
     <main>
-        <section class="banner">
-            <article class="banner__img"></article>
-            <article class="banner__text">
+        <div class="banner">
+            <img src="img/BANNER.jpg" alt="banner">
+            <div class="banner__img">
+                <a href="#top"><img src="img/banner-logo.png" alt="koibird"></a>
+                <a href="#" ><span>BEAUTY AND THE PISTE <i class="fas fa-caret-right"></i></span></a>
+
+            </div>
+            <div class="banner__text">
                 <h1>WHAT WE ARE SHOPPING NOW</h1>
-            </article>
-        </section>
+            </div>
+        </div>
         <section class="new-in">
             <h2 class="new-in__text">
                 <span>NEW IN</span>
             </h2>
-            <article class="slider">
-                <svg >
-                    <rect width="30"
-                          height="50"
-                          stroke-width="5"
-                          stroke="#E0FF04"
-                          fill="none"/>
-                </svg>
-                <div class="slider__item">
-                    <img src="img/slider-black.jpg" alt="black jacket">
-                    <div class="slider__item__text">
-                        <svg class="slider-svg">
-                            <rect width="8"
-                                  height="10"
-                                  stroke-width="2"
-                                  stroke="#BBBBBB"
-                                  fill="none"/>
-                        </svg>
-                        <h3>BLACK JACKET</h3>
-                        <h4>Gucci</h4>
-                        <h5>£000</h5>
-                        <p><span>SHOP NOW</span></p>
-                    </div>
+            <div class="new-in__slider">
+                <button class="arrow">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="slider">
+                    <ul>
+                        <li class="slider__item">
+                            <img src="img/slider-black.jpg" alt="black jacket">
+                            <div class="slider__item__text">
+                                <a href="#" class="slider-heart">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                                <a href="#"><p class="name">BLACK JACKET</p></a>
+                                <p class="brand">Gucci</p>
+                                <p class="price">£000</p>
+                                <button><span>SHOP NOW</span></button>
+                            </div>
+                        </li>
+                        <li class="slider__item">
+                            <img src="img/slider-white.jpg" alt="white jacket">
+                            <div class="slider__item__text">
+                                <a href="#" class="slider-heart slider-heart__yellow">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                                <a href="#"><p class="name">WHITE JACKET</p></a>
+                                <p class="brand">Bacon Clothing</p>
+                                <p class="price">£000</p>
+                                <button><span>SHOP NOW</span></button>
+                            </div>
+                        </li>
+                        <li class="slider__item">
+                            <img src="img/slider-gold.jpg" alt="yellow jacket">
+                            <div class="slider__item__text">
+                                <a href="#" class="slider-heart">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                                <a href="#"><p class="name">YELLOW JACKET</p></a>
+                                <p class="brand">Annakiki</p>
+                                <p class="price">£000</p>
+                                <button><span>SHOP NOW</span></button>
+                            </div>
+                        </li>
+                        <li class="slider__item">
+                            <img src="img/slider-camouflage.jpg" alt="camouflage jacket">
+                            <div class="slider__item__text">
+                                <a href="#" class="slider-heart">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                                <a href="#"><p class="name">CAMOUFLAGE JACKET</p></a>
+                                <p class="brand">Black Crows</p>
+                                <p class="price">£000</p>
+                                <button><span>SHOP NOW</span></button>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <div class="slider__item">
-                    <img src="img/slider-white.jpg" alt="white jacket">
-                    <div class="slider__item__text">
-                        <svg class="slider-svg">
-                            <rect width="8"
-                                  height="10"
-                                  stroke-width="2"
-                                  stroke="#BBBBBB"
-                                  fill="none"/>
-                        </svg>
-                        <h3>WHITE JACKET</h3>
-                        <h4>Bacon Clothing</h4>
-                        <h5>£000</h5>
-                        <p><span>SHOP NOW</span></p>
-                    </div>
-                </div>
-                <div class="slider__item">
-                    <img src="img/slider-gold.jpg" alt="yellow jacket">
-                    <div class="slider__item__text">
-                        <svg class="slider-svg">
-                            <rect width="8"
-                                  height="10"
-                                  stroke-width="2"
-                                  stroke="#E0FF04"
-                                  fill="none"/>
-                        </svg>
-                        <h3>YELLOW JACKET</h3>
-                        <h4>Annakiki</h4>
-                        <h5>£000</h5>
-                        <p><span>SHOP NOW</span></p>
-                    </div>
-                </div>
-                <div class="slider__item">
-                    <img src="img/slider-camouflage.jpg" alt="camouflage jacket">
-                    <div class="slider__item__text">
-                        <svg class="slider-svg slider-svg__yellow">
-                            <rect width="8"
-                                  height="10"
-                                  stroke-width="2"
-                                  stroke="#BBBBBB"
-                                  fill="none"/>
-                        </svg>
-                        <h3>CAMOUFLAGE JACKET</h3>
-                        <h4>Black Crows</h4>
-                        <h5>£000</h5>
-                        <p><span>SHOP NOW</span></p>
-                    </div>
-                </div>
-                <svg >
-                    <rect width="30"
-                          height="50"
-                          stroke-width="5"
-                          stroke="#E0FF04"
-                          fill="none"/>
-                </svg>
-            </article>
-
+                <button class="arrow">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
         </section>
-        <section class="area-6x">
+        <div class="area-6x" id="category">
             <div class="area-6x__item outerwear">
-                <h2>OUTERWEAR</h2>
-                <p>SHOP NOW &#9647;</p>
+                    <h2>OUTERWEAR</h2>
+                    <a href="#">SHOP NOW  <i class="fas fa-chevron-right"></i></a>
             </div>
             <div class="area-6x__item skis">
                 <h2>SKIS</h2>
-                <p>SHOP NOW &#9647;</p>
+                <a href="#">SHOP NOW <i class="fas fa-chevron-right"></i></a>
             </div>
             <div class="area-6x__item knitwear">
                 <h2>KNITWEAR</h2>
-                <p>SHOP NOW &#9647;</p>
+                <a href="#">SHOP NOW <i class="fas fa-chevron-right"></i></a>
             </div>
             <div class="area-6x__item accessories">
                 <h2>ACCESSORIES</h2>
-                <p>SHOP NOW &#9647;</p>
+                <a href="#">SHOP NOW <i class="fas fa-chevron-right"></i></a>
             </div>
             <div class="area-6x__item goggles">
                 <h2>GOGGLES</h2>
-                <p>SHOP NOW &#9647;</p>
+                <a href="#">SHOP NOW <i class="fas fa-chevron-right"></i></a>
             </div>
             <div class="area-6x__item jackets">
                 <h2>JACKETS</h2>
-                <p>SHOP NOW &#9647;</p>
+                <a href="#">SHOP NOW <i class="fas fa-chevron-right"></i></a>
             </div>
-        </section>
+        </div>
         <section class="best-seller">
             <h2 class="best-seller__text">
                 <span>BEST SELLER</span>
             </h2>
-            <article class="slider">
-                <svg >
-                    <rect width="30"
-                          height="50"
-                          stroke-width="5"
-                          stroke="#E0FF04"
-                          fill="none"/>
-                </svg>
-                <div class="slider__item">
-                    <img src="img/BEST-SELLERS-SLIDER-pink.jpg" alt="pink jacket">
-                    <div class="slider__item__text">
-                        <svg class="slider-svg">
-                            <rect width="8"
-                                  height="10"
-                                  stroke-width="2"
-                                  stroke="#BBBBBB"
-                                  fill="none"/>
-                        </svg>
-                        <h3>PINK JACKET</h3>
-                        <h4>Gucci</h4>
-                        <h5>£000</h5>
-                        <p><span>SHOP NOW</span></p>
-                    </div>
+            <div class="best-seller__slider">
+                <button class="arrow">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="slider">
+                    <ul>
+                        <li class="slider__item">
+                            <img src="img/BEST-SELLERS-SLIDER-pink.jpg" alt="pink jacket">
+                            <div class="slider__item__text">
+                                <a href="#" class="slider-heart">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                                <a href="#"><p class="name">PINK JACKET</p></a>
+                                <p class="brand">Gucci</p>
+                                <p class="price">£000</p>
+                                <button><span>SHOP NOW</span></button>
+                            </div>
+                        </li>
+                        <li class="slider__item">
+                            <img src="img/BEST-SELLERS-SLIDER-hat.jpg" alt="pink knit beanie">
+                            <div class="slider__item__text">
+                                <a href="#" class="slider-heart">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                                <a href="#"><p class="name">PINK KNIT BEANIE</p></a>
+                                <p class="brand">Bacon Clothing</p>
+                                <p class="price">£000</p>
+                                <button><span>SHOP NOW</span></button>
+                            </div>
+                        </li>
+                        <li class="slider__item">
+                            <img src="img/BEST-SELLERS-SLIDER-gloves.jpg" alt="gold gloves">
+                            <div class="slider__item__text">
+                                <a href="#" class="slider-heart">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                                <a href="#"><p class="name">GOLD GLOVES</p></a>
+                                <p class="brand">Annakiki</p>
+                                <p class="price">£000</p>
+                                <button><span>SHOP NOW</span></button>
+                            </div>
+                        </li>
+                        <li class="slider__item">
+                            <img src="img/BEST-SELLERS-SLIDER-bag.jpg" alt="cream handbag">
+                            <div class="slider__item__text">
+                                <a href="#" class="slider-heart">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                                <a href="#"><p class="name">CREAM HANDBAG</p></a>
+                                <p class="brand">Black Crows</p>
+                                <p class="price">£000</p>
+                                <button><span>SHOP NOW</span></button>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <div class="slider__item">
-                    <img src="img/BEST-SELLERS-SLIDER-hat.jpg" alt="pink knit beanie">
-                    <div class="slider__item__text">
-                        <svg class="slider-svg">
-                            <rect width="8"
-                                  height="10"
-                                  stroke-width="2"
-                                  stroke="#BBBBBB"
-                                  fill="none"/>
-                        </svg>
-                        <h3>PINK KNIT BEANIE</h3>
-                        <h4>Bacon Clothing</h4>
-                        <h5>£000</h5>
-                        <p><span>SHOP NOW</span></p>
-                    </div>
-                </div>
-                <div class="slider__item">
-                    <img src="img/BEST-SELLERS-SLIDER-gloves.jpg" alt="gold gloves">
-                    <div class="slider__item__text">
-                        <svg class="slider-svg">
-                            <rect width="8"
-                                  height="10"
-                                  stroke-width="2"
-                                  stroke="#E0FF04"
-                                  fill="none"/>
-                        </svg>
-                        <h3>GOLD GLOVES</h3>
-                        <h4>Annakiki</h4>
-                        <h5>£000</h5>
-                        <p><span>SHOP NOW</span></p>
-                    </div>
-                </div>
-                <div class="slider__item">
-                    <img src="img/BEST-SELLERS-SLIDER-bag.jpg" alt="cream handbag">
-                    <div class="slider__item__text">
-                        <svg class="slider-svg">
-                            <rect width="8"
-                                  height="10"
-                                  stroke-width="2"
-                                  stroke="#E0FF04"
-                                  fill="none"/>
-                        </svg>
-                        <h3>CREAM HANDBAG</h3>
-                        <h4>Black Crows</h4>
-                        <h5>£000</h5>
-                        <p><span>SHOP NOW</span></p>
-                    </div>
-                </div>
-                <svg >
-                    <rect width="30"
-                          height="50"
-                          stroke-width="5"
-                          stroke="#E0FF04"
-                          fill="none"/>
-                </svg>
-            </article>
+                <button class="arrow">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
         </section>
         <section class="instagram">
-            <article class="instagram__item "></article>
-            <article class="instagram__item "></article>
-            <article class="instagram__item "></article>
-            <article class="instagram__item "></article>
-            <article class="instagram__item "></article>
-            <article class="instagram__item "></article>
-            <article class="instagram__item "></article>
-            <article class="instagram__item "></article>
-            <article class="instagram__item "></article>
-            <article class="instagram__item "></article>
-            <article class="instagram__item "></article>
-            <article class="instagram__item "></article>
-            <article class="instagram__koiski">
+            <img src="img/1.jpg" alt="" class="instagram__item">
+            <img src="img/2.jpg" alt="" class="instagram__item">
+            <img src="img/3.jpg" alt="" class="instagram__item">
+            <img src="img/4.jpg" alt="" class="instagram__item">
+            <img src="img/5.jpg" alt="" class="instagram__item">
+            <img src="img/6.jpg" alt="" class="instagram__item">
+            <img src="img/7.jpg" alt="" class="instagram__item">
+            <img src="img/8.jpg" alt="" class="instagram__item">
+            <img src="img/9.jpg" alt="" class="instagram__item">
+            <img src="img/10.jpg" alt="" class="instagram__item">
+            <img src="img/11.jpg" alt="" class="instagram__item">
+            <img src="img/12.jpg" alt="" class="instagram__item">
+            <div class="instagram__koiski">
                 <h2>#KOISKI</h2>
-            </article>
+            </div>
         </section>
     </main>
     <footer class="foot">
-        <article>
+        <div class="foot-nav">
             <img src="img/logo.png" alt="logo koibird">
-            <nav>
+            <div >
                 <ul class="foot__nav">
-                    <li>ABOUT</li>
-                    <li>TERMS & CONDITIONS</li>
-                    <li>PRIVACY POLICY</li>
-                    <li>CONTACT US</li>
+                    <li><a href="#"> ABOUT</a></li>
+                    <li><a href="#"> TERMS & CONDITIONS</a></li>
+                    <li><a href="#"> PRIVACY POLICY</a></li>
+                    <li><a href="#"> CONTACT US</a></li>
                 </ul>
-            </nav>
-        </article>
-        <article class="foot__info">
+            </div>
+        </div>
+        <div class="foot__info">
             <h2>SIGN UP FOR OUR NEWSLETTER</h2>
-            <input type="text" ><br/>
-            <label for="gdpr">
-                <input type="checkbox" id="gdpr"> GDPR tick box GDPR tick box GDPR tick box GDPR tick box GDPR tick box
-            </label>
-            <p>SUBMIT ></p>
-            <p class="made-by">Site by Propeller</p>
-        </article>
+            <form action="">
+                <input type="text"  name="signUp"><br/>
+                <label for="gdpr">
+                    <input type="checkbox" id="gdpr"> GDPR tick box GDPR tick box GDPR tick box GDPR tick box GDPR tick box
+                </label>
+                <button>SUBMIT ></button>
+            </form>
+            <a href="#" class="made-by">Site by Propeller</a>
+        </div>
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>
